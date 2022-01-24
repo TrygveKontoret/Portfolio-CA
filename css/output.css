@@ -228,6 +228,9 @@ header .hamburger-active {
     display: flex;
     justify-content: flex-end;
   }
+  .about .me img {
+    width: 60%;
+  }
   .about p {
     width: 50%;
   }

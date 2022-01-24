@@ -263,6 +263,10 @@ header {
         .me {
             display: flex;
             justify-content: flex-end;
+
+            img {
+                width: 60%;
+            }
         }
 
         p {
