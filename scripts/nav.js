@@ -6,18 +6,14 @@ const blogscroll = document.querySelector("#blog");
 const myProjects = document.querySelector(".my-projects");
 const aboutMe = document.querySelector(".about-me");
 
-arrow.addEventListener("click", ()=> {
-    myProjects.scrollIntoView();
+arrow.addEventListener("click", () => {
+  myProjects.scrollIntoView();
 });
 
-projects.addEventListener("click", ()=> {
-    myProjects.scrollIntoView();
+projects.addEventListener("click", () => {
+  myProjects.scrollIntoView();
 });
 
-about.addEventListener("click", ()=> {
-    aboutMe.scrollIntoView();
-});
-
-home.addEventListener("click", ()=> {
-    scrollTo(0,0);
+home.addEventListener("click", () => {
+  scrollTo(0, 0);
 });

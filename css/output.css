@@ -7,7 +7,8 @@
   scroll-behavior: smooth;
 }
 
-a, h1 {
+a,
+h1 {
   text-align: center;
   color: white;
 }
@@ -127,10 +128,9 @@ header .hamburger-active {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  border-bottom: solid 2px white;
   margin: 20px auto;
   height: 100vh;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 .projects div {
   display: flex;
@@ -141,75 +141,37 @@ header .hamburger-active {
   background-color: #4e819883;
   width: 300px;
   border-radius: 10px;
+  height: 45%;
+}
+.projects div div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: transparent;
+  padding: 0;
+}
+.projects div div .button {
+  background-color: #748cab;
+  color: black;
+  width: 100px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: solid #f5cb5c 2px;
+  transition-duration: 0.5s;
+  margin-top: 10px;
+}
+.projects div div .button:hover,
+.projects div div .button-project:hover {
+  background-color: #f5cb5c;
+  border: solid #748cab 2px;
 }
 .projects div img {
   width: 100%;
   margin: 10px;
   border-radius: 5px;
 }
-.projects div p {
+.projects div h3 {
   font-size: 20px;
-}
-.projects .button {
-  background-color: #748CAB;
-  color: black;
-  width: 100px;
-  padding: 5px 10px;
-  border-radius: 5px;
-  border: solid #F5CB5C 2px;
-  transition-duration: 0.5s;
-  margin-top: 10px;
-}
-.projects .button:hover, .projects .button-project:hover {
-  background-color: #F5CB5C;
-  border: solid #748CAB 2px;
-}
-
-.about {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  margin: 20px auto;
-  height: 100vh;
-}
-.about .me {
-  display: flex;
-  justify-content: center;
-  width: 70%;
-}
-.about .me img {
-  width: 70%;
-  border-radius: 5px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-  margin-bottom: 20px;
-}
-.about p {
-  margin-bottom: 10px;
-  width: 70%;
-}
-.about .about-right {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.about .about-right .skills {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 320px;
-  height: 250px;
-  border: solid white 2px;
-  margin-bottom: 20px;
-  margin-top: 10px;
-}
-.about .about-right .skills ul {
-  margin: 20px;
-}
-.about .about-right .skills ul li {
-  padding: 5px;
 }
 
 @media (min-width: 1000px) {
